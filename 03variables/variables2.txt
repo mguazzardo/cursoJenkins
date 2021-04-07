@@ -1,0 +1,2 @@
+NOMBRE="marce02"
+echo "hola $NOMBRE" > /tmp/salida.txt

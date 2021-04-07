@@ -1,0 +1,7 @@
+#https://wiki.jenkins.io/display/JENKINS/Building+a+software+project
+
+# Paso/SSH
+
+echo BUILD_NUMBER $BUILD_NUMBER > /tmp/salida-ambiente.txt
+echo JOB_NAME $JOB_NAME  >> /tmp/salida-ambiente.txt
+echo JAVA_HOME $JAVA_HOME >> /tmp/salida-ambiente.txt

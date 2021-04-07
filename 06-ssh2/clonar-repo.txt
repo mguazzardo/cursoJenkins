@@ -1,0 +1,2 @@
+lo que vamos a hacer es lo siguiente
+cd /tmp && git clone https://github.com/mguazzardo/katacoda-scenarios

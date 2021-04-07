@@ -1,0 +1,3 @@
+crear un container con ssh
+agregar el plugin de ssh en jenkins
+agregar las credenciales en jenkins

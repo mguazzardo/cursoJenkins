@@ -1,0 +1,2 @@
+NOMBRE=marcelo
+echo "Hola $NOMBRE como andas"

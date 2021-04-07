@@ -1,0 +1,19 @@
+# wget wget http://YOUR_JENKINS_HOSTNAME/jnlpJars/jenkins-cli.jar
+
+#Con esto me consigo el jar
+
+#Me falta conseguir el token
+
+# en la parte de configuracion, generar token, del tipo 
+#admin:<token>
+
+#Con esto me autentico
+
+java -jar /root/jenkins-cli.jar -s http://192.168.56.4:8080 -auth @../token.txt who-am-i
+
+
+# Con esto listo las tareas
+java -jar jenkins-cli.jar -s http://192.168.56.200:8080 -auth @token.txt list-jobs
+
+#Con esto la lanzo
+

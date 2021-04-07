@@ -1,0 +1,1 @@
+sudo useradd -m pepe && sudo echo "pepe:pepe" | sudo chpasswd
