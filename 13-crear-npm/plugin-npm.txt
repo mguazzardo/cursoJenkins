@@ -1,0 +1,3 @@
+veremos como correr el plugin de npm.
+veremos como correrlo y buscar en el path.
+

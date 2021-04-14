@@ -1,0 +1,2 @@
+creamos usuarios del sistema
+administrar jenkins/ configuracion de usuarios
