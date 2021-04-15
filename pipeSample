@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checks') {
+            steps {
+                echo 'Checking Depends'
+            } // end steps
+        } // end stage
+        stage('Build')
+        {
+            steps {
+                echo 'Build Artifacts'
+                
+            }//end steps
+            
+        }//end stage
+        stage('Deploy')
+        {
+            steps {
+                echo 'Deploy Artifacts'
+                
+            }//end steps
+            
+        }//end stage
+    }
+}
